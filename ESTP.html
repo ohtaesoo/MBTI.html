@@ -12,44 +12,80 @@
 
   gtag('config', 'G-E62KKLYH4W');
 </script>
+<style>
+  html {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  h1 {
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 26.8px;
+    border-bottom: 3px black solid;
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-bottom: 0;
+    margin-top:  0;
+    text-align: center;
+    border-right: 3px black solid;
+    border-bottom: 3px black solid;
+    width: 240px;
+  }
+  #A {
+    display: grid;
+    grid-template-columns: 243px 1fr;
+  }
+  #B {
+    border-right: 3px black solid;
+  }
+  /*ol 태그가 id C에도 있을 수 있기 때문에 부모인 B에 있다고 알려줌*/
+  #B ol{
+    text-align: left;
+    padding-left: 95px;
+  }
+  #C {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+</style>
 </head>
 
 <body>
   <h1>MBTI로 알아보는 나와 비슷한 동물</h1>
-  <br>
-  <br>
-  <br>
   <h3>MBTI 유형</h3>
-  <br>
-  <ol><h5>
-    <li><a href="ISTJ.html">ISTJ</a></li>
-    <li><a href="ISTP.html">ISTP</a></li>
-    <li><a href="ISFJ.html">ISFJ</a></li>
-    <li><a href="ISFP.html">ISFP</a></li>
-    <li><a href="INTJ.html">INTJ</a></li>
-    <li><a href="INTP.html">INTP</a></li>
-    <li><a href="INFJ.html">INFJ</a></li>
-    <li><a href="INFP.html">INFP</a></li>
-    <li><a href="ESTJ.html">ESTJ</a></li>
-    <li><a href="ESTP.html">ESTP</a></li>
-    <li><a href="ESFJ.html">ESFJ</a></li>
-    <li><a href="ESFP.html">ESFP</a></li>
-    <li><a href="ENTJ.html">ENTJ</a></li>
-    <li><a href="ENTP.html">ENTP</a></li>
-    <li><a href="ENFJ.html">ENFJ</a></li>
-    <li><a href="ENFP.html">ENFP</a></li>
-  </h5></ol>
-  <br>
-  <br>
-  <br>
-  ESTP = 치타
-  <br>
-  <p>
-    ESTP는 치타처럼 완전 활동적이고 자발적입니다. 항상 주위에 무슨일이 일어났는지 알고 정신적으로나 육체적으로나 재빨리 행동하고 대처합니다.
-    그래서 그런지 조직적일수 있고 여러 친구 중에 가장 관대하고 아껴주는 친구인 동시에 카리스마가 있는 친구입니다.
-    ESTP가 원하는 것은 좋은 시간을 갖는 것이고 모험을 떠나는 것을 좋아합니다. 치타가 표유류 중에 최고의 속도를 낼 수 있다는것 아시나요??
-    자그마치 시속 120Km를 달릴수 있다고 합니다!!
-  </p>
-  <img src="치타.jpg" width="300">
+  <div id="A">
+    <div id="B">
+      <ol><h4>
+        <li><a href="ISTJ.html" style="color: blue">ISTJ</a></li>
+        <li><a href="ISTP.html" style="color: blue">ISTP</a></li>
+        <li><a href="ISFJ.html" style="color: blue">ISFJ</a></li>
+        <li><a href="ISFP.html" style="color: blue">ISFP</a></li>
+        <li><a href="INTJ.html" style="color: blue">INTJ</a></li>
+        <li><a href="INTP.html" style="color: blue">INTP</a></li>
+        <li><a href="INFJ.html" style="color: blue">INFJ</a></li>
+        <li><a href="INFP.html" style="color: blue">INFP</a></li>
+        <li><a href="ESTJ.html" style="color: red">ESTJ</a></li>
+        <li><a href="ESTP.html" style="color: gray">ESTP</a></li>
+        <li><a href="ESFJ.html" style="color: red">ESFJ</a></li>
+        <li><a href="ESFP.html" style="color: red">ESFP</a></li>
+        <li><a href="ENTJ.html" style="color: red">ENTJ</a></li>
+        <li><a href="ENTP.html" style="color: red">ENTP</a></li>
+        <li><a href="ENFJ.html" style="color: red">ENFJ</a></li>
+        <li><a href="ENFP.html" style="color: red">ENFP</a></li>
+      </h4></ol>
+    </div>
+    <div id="C">
+      ESTP = 치타
+      <br>
+      <p>
+        ESTP는 치타처럼 완전 활동적이고 자발적입니다. 항상 주위에 무슨일이 일어났는지 알고 정신적으로나 육체적으로나 재빨리 행동하고 대처합니다.
+        그래서 그런지 조직적일수 있고 여러 친구 중에 가장 관대하고 아껴주는 친구인 동시에 카리스마가 있는 친구입니다.
+        ESTP가 원하는 것은 좋은 시간을 갖는 것이고 모험을 떠나는 것을 좋아합니다. 치타가 표유류 중에 최고의 속도를 낼 수 있다는것 아시나요??
+        자그마치 시속 120Km를 달릴수 있다고 합니다!!
+      </p>
+      <img src="치타.jpg" width="300">
+    </div>
+  </div>
 </body>
 </html>

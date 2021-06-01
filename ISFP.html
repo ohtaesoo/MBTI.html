@@ -12,43 +12,79 @@
 
   gtag('config', 'G-E62KKLYH4W');
 </script>
+  <style>
+  html {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  h1 {
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 26.8px;
+    border-bottom: 3px black solid;
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-bottom: 0;
+    margin-top:  0;
+    text-align: center;
+    border-right: 3px black solid;
+    border-bottom: 3px black solid;
+    width: 240px;
+  }
+  #A {
+    display: grid;
+    grid-template-columns: 243px 1fr;
+  }
+  #B {
+    border-right: 3px black solid;
+  }
+  /*ol 태그가 id C에도 있을 수 있기 때문에 부모인 B에 있다고 알려줌*/
+  #B ol{
+    text-align: left;
+    padding-left: 95px;
+  }
+  #C {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  </style>
 </head>
 
 <body>
   <h1>MBTI로 알아보는 나와 비슷한 동물</h1>
-  <br>
-  <br>
-  <br>
   <h3>MBTI 유형</h3>
-  <br>
-  <ol><h5>
-    <li><a href="ISTJ.html">ISTJ</a></li>
-    <li><a href="ISTP.html">ISTP</a></li>
-    <li><a href="ISFJ.html">ISFJ</a></li>
-    <li><a href="ISFP.html">ISFP</a></li>
-    <li><a href="INTJ.html">INTJ</a></li>
-    <li><a href="INTP.html">INTP</a></li>
-    <li><a href="INFJ.html">INFJ</a></li>
-    <li><a href="INFP.html">INFP</a></li>
-    <li><a href="ESTJ.html">ESTJ</a></li>
-    <li><a href="ESTP.html">ESTP</a></li>
-    <li><a href="ESFJ.html">ESFJ</a></li>
-    <li><a href="ESFP.html">ESFP</a></li>
-    <li><a href="ENTJ.html">ENTJ</a></li>
-    <li><a href="ENTP.html">ENTP</a></li>
-    <li><a href="ENFJ.html">ENFJ</a></li>
-    <li><a href="ENFP.html">ENFP</a></li>
-  </h5></ol>
-  <br>
-  <br>
-  <br>
-  ISFP = 나무늘보
-  <br>
-  <p>
-    ISFP는 만사가 편안합니다. 마치 나무늘보처럼요. 이들은 평화적이고 배려하며 잘어울리는 친구입니다.
-    이런 친구가 있으면 나 자신도 편안해 지는것은 덤입니다. 다만 스피드를 원하는 우리나라와 정반대로 천천히 하는것을 선호하죠.
-    조금 답답하게 느낄수도 있겠네요!!
-  </p>
-  <img src="나무늘보.jpg" width="300">
+  <div id="A">
+    <div id="B">
+      <ol><h4>
+        <li><a href="ISTJ.html" style="color: blue">ISTJ</a></li>
+        <li><a href="ISTP.html" style="color: blue">ISTP</a></li>
+        <li><a href="ISFJ.html" style="color: blue">ISFJ</a></li>
+        <li><a href="ISFP.html" style="color: gray">ISFP</a></li>
+        <li><a href="INTJ.html" style="color: blue">INTJ</a></li>
+        <li><a href="INTP.html" style="color: blue">INTP</a></li>
+        <li><a href="INFJ.html" style="color: blue">INFJ</a></li>
+        <li><a href="INFP.html" style="color: blue">INFP</a></li>
+        <li><a href="ESTJ.html" style="color: red">ESTJ</a></li>
+        <li><a href="ESTP.html" style="color: red">ESTP</a></li>
+        <li><a href="ESFJ.html" style="color: red">ESFJ</a></li>
+        <li><a href="ESFP.html" style="color: red">ESFP</a></li>
+        <li><a href="ENTJ.html" style="color: red">ENTJ</a></li>
+        <li><a href="ENTP.html" style="color: red">ENTP</a></li>
+        <li><a href="ENFJ.html" style="color: red">ENFJ</a></li>
+        <li><a href="ENFP.html" style="color: red">ENFP</a></li>
+      </h4></ol>
+    </div>
+    <div id="C">
+      ISFP = 나무늘보
+      <br>
+      <p>
+        ISFP는 만사가 편안합니다. 마치 나무늘보처럼요. 이들은 평화적이고 배려하며 잘어울리는 친구입니다.
+        이런 친구가 있으면 나 자신도 편안해 지는것은 덤입니다. 다만 스피드를 원하는 우리나라와 정반대로 천천히 하는것을 선호하죠.
+        조금 답답하게 느낄수도 있겠네요!!
+      </p>
+      <img src="나무늘보.jpg" width="300">
+    </div>
+  </div>
 </body>
 </html>
