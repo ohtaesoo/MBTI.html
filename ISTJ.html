@@ -13,41 +13,65 @@
   gtag('config', 'G-E62KKLYH4W');
 </script>
   <style>
-  html {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  h1 {
-    font-size: 250%;
-    text-align: center;
-    padding-bottom: 26.8px;
-    border-bottom: 3px black solid;
-    margin-bottom: 0;
-  }
-  h3 {
-    margin-bottom: 0;
-    margin-top:  0;
-    text-align: center;
-    border-right: 3px black solid;
-    border-bottom: 3px black solid;
-    width: 240px;
-  }
-  #A {
-    display: grid;
-    grid-template-columns: 243px 1fr;
-  }
-  #B {
-    border-right: 3px black solid;
-  }
-  /*ol 태그가 id C에도 있을 수 있기 때문에 부모인 B에 있다고 알려줌*/
-  #B ol{
-    text-align: left;
-    padding-left: 95px;
-  }
-  #C {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+    html {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    h1 {
+      font-size: 250%;
+      text-align: center;
+      padding-bottom: 26.8px;
+      border-bottom: 3px black solid;
+      margin-bottom: 0;
+    }
+    h3 {
+      margin-bottom: 0;
+      margin-top:  0;
+      text-align: center;
+      border-right: 3px black solid;
+      border-bottom: 3px black solid;
+      width: 26%;
+    }
+    #A {
+      display: grid;
+      grid-template-columns: 26% 1fr;
+      padding-left: 4px;
+    }
+    #B {
+      border-right: 3px black solid;
+    }
+    /*ol 태그가 id C에도 있을 수 있기 때문에 부모인 B에 있다고 알려줌*/
+    #B ol{
+      text-align: left;
+      padding-left: 38%;
+    }
+    #C {
+      padding-left: 8%;
+      padding-right: 8%;
+      width: 84%;
+    }
+    @media(max-width:800px) {
+      h3 {
+        border-right: none;
+        width: 100%;
+      }
+      #B ol {
+        padding-left: 30%;
+        padding-right: 20%;
+      }
+      #A {
+        display: block;
+        padding-left: 0;
+      }
+      #B {
+        border-right: none;
+      }
+      #IE {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        grid-column-gap: 10%;
+      }
+    }
   </style>
 </head>
 
@@ -57,22 +81,28 @@
   <div id="A">
     <div id="B">
       <ol><h4>
-        <li><a href="ISTJ.html" style="color: gray">ISTJ</a></li>
-        <li><a href="ISTP.html" style="color: blue">ISTP</a></li>
-        <li><a href="ISFJ.html" style="color: blue">ISFJ</a></li>
-        <li><a href="ISFP.html" style="color: blue">ISFP</a></li>
-        <li><a href="INTJ.html" style="color: blue">INTJ</a></li>
-        <li><a href="INTP.html" style="color: blue">INTP</a></li>
-        <li><a href="INFJ.html" style="color: blue">INFJ</a></li>
-        <li><a href="INFP.html" style="color: blue">INFP</a></li>
-        <li><a href="ESTJ.html" style="color: red">ESTJ</a></li>
-        <li><a href="ESTP.html" style="color: red">ESTP</a></li>
-        <li><a href="ESFJ.html" style="color: red">ESFJ</a></li>
-        <li><a href="ESFP.html" style="color: red">ESFP</a></li>
-        <li><a href="ENTJ.html" style="color: red">ENTJ</a></li>
-        <li><a href="ENTP.html" style="color: red">ENTP</a></li>
-        <li><a href="ENFJ.html" style="color: red">ENFJ</a></li>
-        <li><a href="ENFP.html" style="color: red">ENFP</a></li>
+        <div id="IE">
+          <div id="I">
+            <li><a href="ISTJ.html" style="color: gray">ISTJ</a></li>
+            <li><a href="ISTP.html" style="color: blue">ISTP</a></li>
+            <li><a href="ISFJ.html" style="color: blue">ISFJ</a></li>
+            <li><a href="ISFP.html" style="color: blue">ISFP</a></li>
+            <li><a href="INTJ.html" style="color: blue">INTJ</a></li>
+            <li><a href="INTP.html" style="color: blue">INTP</a></li>
+            <li><a href="INFJ.html" style="color: blue">INFJ</a></li>
+            <li><a href="INFP.html" style="color: blue">INFP</a></li>
+          </div>
+          <div id="E">
+              <li><a href="ESTJ.html" style="color: red">ESTJ</a></li>
+              <li><a href="ESTP.html" style="color: red">ESTP</a></li>
+              <li><a href="ESFJ.html" style="color: red">ESFJ</a></li>
+              <li><a href="ESFP.html" style="color: red">ESFP</a></li>
+              <li><a href="ENTJ.html" style="color: red">ENTJ</a></li>
+              <li><a href="ENTP.html" style="color: red">ENTP</a></li>
+              <li><a href="ENFJ.html" style="color: red">ENFJ</a></li>
+              <li><a href="ENFP.html" style="color: red">ENFP</a></li>
+          </div>
+        </div>
       </h4></ol>
     </div>
     <div id="C">
